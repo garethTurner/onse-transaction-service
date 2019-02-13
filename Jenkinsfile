@@ -1,5 +1,6 @@
 def github_id = 'garethTurner'
 
+
 def namespace = github_id.toLowerCase()
 def image_name = "onsetraining/${namespace}-transaction-service"
 def git_repository = "https://github.com/${github_id.toLowerCase()}/onse-transaction-service"
