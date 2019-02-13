@@ -1,8 +1,8 @@
-def github_id = 'CHANGEME'
+def github_id = 'garethTurner'
 
 def namespace = github_id.toLowerCase()
 def image_name = "onsetraining/${namespace}-transaction-service"
-def git_repository = "https://github.com/${github_id}/onse-transaction-service"
+def git_repository = "https://github.com/${github_id.toLowerCase()}/onse-transaction-service"
 
 def kaniko_image = 'gcr.io/kaniko-project/executor:debug-b0e7c0e8cd07ef3ad2b7181e0779af9fcb312f0b'
 def kubectl_image = 'aklearning/onse-eks-kubectl-deployer:0.0.1'
